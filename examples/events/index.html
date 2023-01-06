@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <title>Events</title>
   </head>
   <body>
     <h1>Events 101</h1>
@@ -16,8 +17,10 @@
 
     <div class="card">
       <button id="click_me">Click Me</button>
-      <input id="click_value" type="number" value="0" />
-      <input id="change_me" value="Change me" />
+      <label for="click_value">
+      <input id="click_value" type="number" value="0" placeholder="" title="counter"/></label>
+      <label for="change_me">
+      <input id="change_me" value="Change me" placeholder="" title="message"/></label>
     </div>
     <script type="module" src="./index.js"></script>
   </body>
