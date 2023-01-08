@@ -67,6 +67,9 @@ button {
     0 2.6963px 2.22963px #5863f809, 0 1.4px 1.1375px #5863f808,
     0 0.57037px 0.57037px #5863f806, 0 0.12963px 0.275463px #5863f804;
 }
+button:hover {
+  cursor: pointer;
+}
 
 input,
 textarea {
